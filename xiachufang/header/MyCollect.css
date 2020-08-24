@@ -1,0 +1,95 @@
+.mycollect{
+	margin-top: 100px;
+	width:1000px;
+	height: 200px;
+}
+.userphoto img{
+	width: 132px;
+	height: 132px;
+	border-radius:66px;
+}
+.setpersonal,.date{
+	color:#909090;
+	font-size:12px;
+}
+.userphoto,.userinformation{
+	float: left;
+}
+.userinformation{
+	margin-left: 50px;
+}
+.following,.followed{
+	float:left;
+	background-color: #f3f3f3;
+	text-align: center;
+	width: 100px;
+	height: 50px;
+	line-height: 25px;
+	font-size: 12px;
+}
+.userperson{
+	margin-left: 400px;
+	float:right;
+}
+.userperson{
+	text-align:center;
+}
+.following,.followed{
+	margin-top:100px;
+}
+.mycollectNav{
+	margin-top: 20px;
+	width: 1000px;
+}
+.mycollectNav>ul{
+	height: 48px;
+}
+.mycollectNav>ul>li{
+	list-style-type: none;
+	font-size: 16px;
+	background-color:#f5f6f5;
+	width: 78px;
+	height: 48px;
+	line-height: 48px;
+	text-align:center;
+	float:left;
+	border-right:3px solid white;
+}
+.mycollectNav>ul>li>a{
+	color: black;
+}
+.mycollectNav>ul>.whiteSpace{
+	width:580px;
+	min-width: 500px;
+}
+.mycollectNav>ul>.drafts{
+	background-color:#dd3915;
+	color:white;
+	border:none;
+}
+.mycollectNav>ul>li:not(.whiteSpace):hover{
+	background-color:#dd3915;
+}
+.mycollectNav>ul>li>a:hover{
+	color:white;
+}
+.FoodClassbox{
+	margin-top: 30px;
+	text-align:center;
+	width: 208px;
+	height: 118px;
+}
+.FoodClassbox .FoodClass{
+	font-size: 18.72px;
+	font-weight: bold;
+	height: 70px;
+	line-height: 70px;
+	background-color:#f5f6f5;
+}
+.FoodClassbox>.AllFood{
+	height: 48px;
+	line-height:48px;
+	font-size: 16px;
+	color:white;
+	background-color:#666666;
+}

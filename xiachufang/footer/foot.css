@@ -1,0 +1,48 @@
+body{
+	color:#94959b;
+	margin:10px 0;
+}
+a{
+	color:#94959b;
+	margin:5px 10px 5px 0;
+}
+a:hover{
+	text-decoration: none;
+	color:#94959b;
+}
+.nav button{
+	padding:10px;
+	margin:10px;
+	background: #84cf6d;
+	border-radius:0;
+}
+.nav button a{
+	margin:10px;
+	padding:10px;
+}
+.nav button:hover{
+	background:#84cf6d;
+}
+.nav button:active{
+	background:#94959b;
+}
+.nav a{
+	color:#fff;
+}
+.pagefoooter{
+	float:right;
+}
+.twitter{
+	width: 32px;
+	height: 32px;
+	float:right;
+	background-image: url(tt.png);
+}
+.weibo{
+	width: 32px;
+	height: 32px;
+	display:inline-block;
+	float:right;
+	background-image: url(we.png);
+	margin:0 10px;
+}

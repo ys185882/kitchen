@@ -1,0 +1,159 @@
+*{
+	padding:0;
+	margin:0;
+}
+a{
+	text-decoration:none;
+}
+.container{
+	width:1000px;
+	padding-left: 0;
+}
+.navbox{
+	background-color:white;
+	width: 100%;
+	height: 70px;
+	position:fixed;
+	top:0;
+	border-bottom: 2px solid #f3f3f3;
+}
+.navbar-fixed-top{
+	width:1000px;
+	height: 70px;
+	padding-left: 0;
+	padding-right: 0;
+}
+.headbox{
+	height: 70px;
+	line-height: 70px;
+}
+.headnav ul{
+	float:right;
+	position: relative;
+}
+.photo,.food,.headnav,.headphoto,.collect{
+	float: left;
+}
+.headnav ul>li{
+	float:left;
+	list-style-type: none;
+}
+.foodclassbox{
+	width: 200px;
+	float:left;
+	line-height: 40px;
+	position: absolute;
+	top:60px;
+	right: 70px;
+	visibility:hidden;
+}
+.navfoodmenu{
+	background-color:#f5f6f5;
+	font-size: 16px;
+	width: 350px;
+}
+.navmenu:hover .foodclassbox{
+	visibility:visible;
+}
+.food{
+	margin-left: 50px;
+}
+.food [type=text]{
+	border:1px solid #f3f3f3;
+	outline: none;
+	height: 44px;
+	width: 300px;
+}
+.food [type=button]{
+	border:none;
+	width: 79px;
+	height: 44px;
+	background-color: #dd3915;
+	color:white;
+	line-height: 44px;
+	font-size: 16px;
+}
+.headnav ul li a{
+	font-size: 16px;
+	text-decoration:none;
+	color: #dd3915;
+	margin-left: 15px;
+}
+.headnav ul li a:hover{
+	background-color:#dd3915;
+	color:white;
+}
+.headphoto{
+	list-style-type: none;
+	height: 70px;
+}
+.headphotobox{
+	width: 100px;
+	float:left;
+	position: absolute;
+	top:60px;
+	right: 70px;
+	visibility:hidden;
+}
+.headphoto ul li a{
+	font-size: 16px;
+	color:#dd3915;
+}
+.headphoto ul li a:hover{
+	background-color:#dd3915;
+	color: white;
+}
+.headphoto ul{
+	width: 100px;
+	line-height: 30px;
+	list-style-type: none;
+	background-color:white;
+	position:relative;
+	top:10px;
+}
+.headphoto ul li{
+	text-align: center;
+}
+.headphoto img{
+	width: 30px;
+	height: 30px;
+	border-radius:15px;
+	margin-left:60px;
+	margin-right:20px;
+}
+.headphoto:hover .headphotobox{
+	visibility:visible;
+}
+.collect{
+	widows: 22px;
+	height: 30px;
+}
+.collect>a{
+	width: 32px;
+	height: 32px;
+	line-height:32px;
+	display:inline-block;
+	margin-top:20px;
+	padding-left:20px;
+	border-left: 1px solid black;
+	background-image: url(blackcollect.png);
+	background-repeat: no-repeat;
+}
+.collect a:hover{
+	background-image: url(redcollect.png);
+	background-repeat: no-repeat;
+}
+.navfoodmenu a{
+	color:red;
+}
+.navfoodmenu span{
+	color:green;
+}
+.foodnav{
+	color:#999999;
+}
+.allclass{
+	padding:10px;
+	text-align:center;
+	color:red;
+}
