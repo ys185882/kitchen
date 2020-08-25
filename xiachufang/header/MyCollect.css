@@ -1,5 +1,5 @@
 .mycollect{
-	margin-top: 100px;
+	margin-top: 30px;
 	width:1000px;
 	height: 200px;
 }
@@ -18,24 +18,31 @@
 .userinformation{
 	margin-left: 50px;
 }
+.userperson>.follow{
+	background-color: #f3f3f3;
+	margin-top:100px;
+	height: 58px;
+	padding:10px;
+}
+.followed{
+	border-left: 1px solid #cccccc;
+}
 .following,.followed{
 	float:left;
-	background-color: #f3f3f3;
 	text-align: center;
-	width: 100px;
-	height: 50px;
-	line-height: 25px;
+	width: 80px;
+	line-height: 20px;
 	font-size: 12px;
 }
 .userperson{
 	margin-left: 400px;
 	float:right;
-}
-.userperson{
 	text-align:center;
 }
-.following,.followed{
-	margin-top:100px;
+.userperson>.follow a{
+	color:#dd3915;
+	font-size: 16px;
+	font-weight: bold;
 }
 .mycollectNav{
 	margin-top: 20px;
@@ -59,7 +66,7 @@
 	color: black;
 }
 .mycollectNav>ul>.whiteSpace{
-	width:580px;
+	width:595px;
 	min-width: 500px;
 }
 .mycollectNav>ul>.drafts{

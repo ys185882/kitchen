@@ -1,12 +1,11 @@
-body{
+footer{
 	color:#94959b;
-	margin:10px 0;
 }
-a{
+.pagefoooter~a{
 	color:#94959b;
 	margin:5px 10px 5px 0;
 }
-a:hover{
+.pagefoooter~a:hover{
 	text-decoration: none;
 	color:#94959b;
 }
