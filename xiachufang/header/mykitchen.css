@@ -1,0 +1,113 @@
+.mycollect{
+	margin-top: 30px;
+	width:1000px;
+	height: 200px;
+}
+.userphoto img{
+	width: 132px;
+	height: 132px;
+	border-radius:66px;
+}
+.setpersonal,.date{
+	color:#909090;
+	font-size:12px;
+}
+.userphoto,.userinformation{
+	float: left;
+}
+.userinformation{
+	margin-left: 50px;
+}
+.userperson>.follow{
+	background-color: #f3f3f3;
+	margin-top:100px;
+	height: 58px;
+	padding:10px;
+}
+.followed{
+	border-left: 1px solid #cccccc;
+}
+.following,.followed{
+	float:left;
+	text-align: center;
+	width: 80px;
+	line-height: 20px;
+	font-size: 12px;
+}
+.userperson{
+	margin-left: 400px;
+	float:right;
+	text-align:center;
+}
+.userperson>.follow a{
+	color:#dd3915;
+	font-size: 16px;
+	font-weight: bold;
+}
+.mycollectNav{
+	margin-top: 20px;
+	width: 1000px;
+}
+.mycollectNav>ul{
+	height: 48px;
+}
+.mycollectNav>ul>li{
+	list-style-type: none;
+	font-size: 16px;
+	background-color:#f5f6f5;
+	width: 78px;
+	height: 48px;
+	line-height: 48px;
+	text-align:center;
+	float:left;
+	border-right:3px solid white;
+}
+.mycollectNav>ul>li>a{
+	color: black;
+}
+.mycollectNav>ul>.whiteSpace{
+	width:595px;
+	min-width: 500px;
+}
+.mycollectNav>ul li:first-child{
+	background-color:#dd3915;
+}
+.mycollectNav>ul li:first-child a{
+	background-color:#dd3915;
+	color:white;
+}
+.mycollectNav>ul>li:not(.whiteSpace):hover{
+	background-color:#dd3915;
+}
+.mycollectNav>ul>li:not(.whiteSpace):hover a{
+	color:white;
+}
+.WorksNav{
+	margin-top:100px;
+	min-width: 1000px;
+}
+.WorksNav {
+	text-align:center;
+}
+.WorksNav div{
+	margin-top:10px;
+}
+.WorksNav h3{
+	font-weight: bold;
+	font-size: 18.72px;
+}
+.WorksNav [type=text]{
+	width: 193px;
+	height: 39px;
+	outline: none;
+	border:1px solid #f3f3f3;
+}
+.WorksNav [type=button]{
+	border:none;
+	padding:10px;
+	background-color:#dd3915;
+	color:white;
+}
+.WorksNav span{
+	font-size: 16px;
+}
