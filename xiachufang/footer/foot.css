@@ -22,6 +22,9 @@ footer{
 .nav button:hover{
 	background:#84cf6d;
 }
+.nav button:hover a{
+	text-decoration: none;
+}
 .nav button:active{
 	background:#94959b;
 }
