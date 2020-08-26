@@ -1,17 +1,17 @@
 .col-xs-2{
 	height: 200px;
-	border:1px solid red;
+	/*border:1px solid red;*/
 }
 .col-xs-6{
-	height: 200px;
-	border:1px solid red;
+	/*height: 200px;*/
+	/*border:1px solid red;*/
 }
 .col-xs-4{
 	height: 200px;
-	border:1px solid red;
+	/*border:1px solid red;*/
 }
 .foods li{
-	border:1px solid red;
+	/*border:1px solid red;*/
 	height: 32px;
 	list-style-type: none;
 	line-height: 32px;
@@ -27,7 +27,7 @@
 	position:absolute;
 	top:120px;
 	left:150px;
-	z-index:1;
+	z-index:2;
 	background:#f5f6f5;
 }
 .foods table td{
@@ -36,23 +36,101 @@
 .foods table td:hover{
 	color:red;
 }
-a{
+.col-xs-2 a{
 	color:#dd3915;
+	padding:5px;
 }
-a:hover{
+.col-xs-2 a:hover{
 	background:#dd3915;
 	color:white;
 	text-decoration: none;
-	padding:5px;
 }
 .col-xs-6 h3{
 	color:#c0ae7d;
 	font-weight:bold;
 	float:left;
 }
-.pagination{
+[type=button]{
+	margin-top:10px;
 	float:right;
+	padding:5px 10px;
 }
 .all{
 	margin:20px 0 0 120px;
+}
+.all a{
+	padding:5px;
+	color:#dd3915;
+}
+.all a:hover{
+	background:#dd3915;
+	color:white;
+	text-decoration: none;
+}
+/*.boxsmall ol{
+	height: 160px;
+	overflow:hidden;
+	border:1px solid red;
+	display:flex;
+	flex-wrap: nowrap;
+	position:absolute;
+	top:382px;
+	left:428px;
+}
+.boxsmall li img{
+	width: 120px;
+	height: 80px;
+}
+.boxsmall li{
+	float:left;
+	margin:20px 20px;
+	list-style-type: none;
+}*/
+.text{
+	width:160px;
+	/*border:1px solid red;*/
+	position:absolute;
+	right:0px;
+	top:75px;
+}
+.swiper-container {
+   width: 100%;
+   height: 90%;
+   margin-top:-100px;
+   /*border:1px solid red;*/
+  /*overflow-x:hidden;*/
+   /*overflow-y:visible;*/
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 14px;
+  background: #fff;
+      /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.swiper-button-next{
+	color:gray;
+	position:relative;
+	bottom:33px;
+   /*border:1px solid red;*/
+	left:355px;
+}
+.swiper-button-prev{
+	color:gray;
+	font-size: 14px;
+   /*border:1px solid red;*/
+	position:relative;
+	bottom:55px;
+	left:420px;
 }

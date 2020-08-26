@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="header/head.css">
 	<link rel="stylesheet" href="footer/foot.css">
+	<link rel="stylesheet" href="css/swiper-bundle.min.css">
 	<link rel="stylesheet" href="css/homepage.css">
 	<script src="js/jquery.js"></script>
 	<script src="js/bootstrap.js"></script>
@@ -204,19 +205,53 @@
     	</div>
   		</div>
 		</div>
-		<!-- <nav aria-label="Page navigation"> -->
-			  <ul class="pagination">
-			    <li>
-			      <a href="#" aria-label="Previous">
-			        <span aria-hidden="true"><</span>
-			      </a>
-			      <a href="#" aria-label="Next">
-			        <span aria-hidden="true">></span>
-			      </a>
-			    </li>
-			  </ul>
-			  <h3>新秀菜谱</h3>
-			  <div class="all"><a href="">全部</a></div>
+		<h3>新秀菜谱</h3>
+		<div class="all"><a href="">全部</a></div>
+		<br>
+		<!-- <div class="boxm"></div> -->
+		  <!-- Swiper -->
+		<div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="images/home2.jpg" alt=""><div class="text">茄子🍆炖土豆🥔</div></div>
+      <div class="swiper-slide"><img src="images/home2.jpg" alt=""><div class="text">梦幻星空软欧面</div></div>
+      <div class="swiper-slide"><img src="images/home2.jpg" alt=""><div class="text">梦幻星空软欧面</div></div>
+      <div class="swiper-slide"><img src="images/home2.jpg" alt=""><div class="text">梦幻星空软欧面</div></div>
+      <div class="swiper-slide"><img src="images/home2.jpg" alt=""><div class="text">梦幻星空软欧面</div></div>
+      <div class="swiper-slide"><img src="images/home2.jpg" alt=""><div class="text">梦幻星空软欧面</div></div>
+      <div class="swiper-slide"><img src="images/home2.jpg" alt=""><div class="text">梦幻星空软欧面</div></div>
+      <div class="swiper-slide"><img src="images/home2.jpg" alt=""><div class="text">梦幻星空软欧面</div></div>
+      <div class="swiper-slide"><img src="images/home2.jpg" alt=""><div class="text">梦幻星空软欧面</div></div>
+      <div class="swiper-slide"><img src="images/home2.jpg" alt=""><div class="text">梦幻星空软欧面</div></div>
+    </div>
+    <!-- Add Pagination -->
+    <!-- <div class="swiper-pagination"></div> -->
+    <!-- Add Arrows -->
+    
+  </div>
+  <!-- Swiper JS -->
+  <script src="js/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      slidesPerGroup: 3,
+      // loop: true,
+      loopFillGroupWithBlank: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+
+  </script>
 			</div>
 			<div class="col-xs-4">
 				
@@ -227,7 +262,21 @@
 	<br>
 	<br>
 	<br>
-	<br>
+	<!-- <div class="row boxsmall">
+			<ol>
+				<li><img src="images/home2.jpg" alt="">巧克力脆脆</li>
+				<li><img src="images/home2.jpg" alt="">巴斯克芝士蛋糕</li>
+				<li><img src="images/home2.jpg" alt="">㊙️低卡零食㊙️无</li>
+				<li><img src="images/home2.jpg" alt="">健康粗粮饭（薏米</li>
+				<li><img src="images/home2.jpg" alt="">流沙奶黄包</li>
+				<li><img src="images/home2.jpg" alt="">红豆饼@红豆酥</li>
+				<li><img src="images/home2.jpg" alt="">浓香红薯吐司</li>
+				<li><img src="images/home2.jpg" alt="">好吃到舔盘的荷</li>
+				<li><img src="images/home2.jpg" alt="">面包店爆款🔥咸</li>
+				<li><img src="images/home2.jpg" alt="">🔥好看又好吃的蒜蓉蚝油西兰花</li>
+			</ol>
+		</div>
+	<br> -->
 	<br>
 	<br>
 	<br>
@@ -291,9 +340,10 @@
 		<a href="footer/advertisement.html">隐私政策</a>
 		<a href="footer/About us.html">关于我们</a>
 	<p>Copyright © xiachufang.com   京B2-20180499   京ICP备13009078号-1   京公网安备11010802022310号</p>
-	<p>违法和不良信息举报电话：010-52800126   举报邮箱： <a href="">talk@xiachufang.com</a></p>
+	<p>违法和不良信息举报电话：010-52800126   举报邮箱：talk@xiachufang.com</p>
 	</div>
 	</footer>
 	<script src="js/homepage.js"></script>
+	
 </body>
 </html>
