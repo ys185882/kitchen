@@ -1,6 +1,7 @@
 .AllSpecial{
 	background-color:#f5f6f5;
 	font-size: 16px;
+	padding:30px 0;
 }
 .AllSpecial a{
 	color:black;
@@ -11,4 +12,47 @@
 .AllSpecial table tr td{
 	width: 200px;
 	padding:5px;
+}
+
+.AllSpecial table{
+	margin:0px 60px;
+}
+.HotSpecial,h1{
+	font-weight: bold;
+}
+.showall:hover{
+	color:red;
+	cursor:pointer;
+}
+.showall2:hover{
+	color:red;
+	cursor:pointer;
+}
+.showall3:hover{
+	color:red;
+	cursor:pointer;
+}
+.allhide:hover{
+	color:red;
+	cursor:pointer;
+}
+.allhide2:hover{
+	color:red;
+	cursor:pointer;
+}
+.allhide3:hover{
+	color:red;
+	cursor:pointer;
+}
+.foodtitle{
+	color:#9090a9;
+}
+.foodlisttwo{
+	display:none;
+}
+.foodlisttwo2{
+	display:none;
+}
+.foodlisttwo3{
+	display:none;
 }
