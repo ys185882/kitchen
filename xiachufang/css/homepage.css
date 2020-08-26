@@ -1,3 +1,6 @@
+.flo{
+	margin-top:40px;
+}
 .col-xs-2{
 	height: 200px;
 	/*border:1px solid red;*/
@@ -7,7 +10,7 @@
 	/*border:1px solid red;*/
 }
 .col-xs-4{
-	height: 200px;
+	height: 300px;
 	/*border:1px solid red;*/
 }
 .foods li{
@@ -133,4 +136,135 @@
 	position:relative;
 	bottom:55px;
 	left:420px;
+}
+.img img{
+	width: 200px;
+}
+.tit{
+	border:1px solid #f3f3f3;
+	padding:10px;
+	text-align:center;
+}
+.tit span{
+	font-size:12px;
+}
+.img img+a{
+	text-decoration: none;
+	color:black;
+}
+.img img+a:hover{
+	/*background:#dd3915;*/
+	color:#dd3915;
+}
+.tit a{
+	text-decoration: none;
+	color:black;
+}
+.tit a:hover{
+	color:#dd3915;
+}
+.Seasonal{
+	width: 460px;
+	height: 240px;
+	background: #f5f6f5;
+	/*border:1px solid red;*/
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: space-around;
+}
+.ingredients{
+	margin:20px 5px;
+}
+.Seasonal a{
+	text-decoration: none;
+	color:black;
+}
+.Seasonal a:hover{
+	color:#dd3915;
+}
+.portrait{
+	margin:20px auto;
+	width: 80px;
+	height: 80px;
+	border-radius:40px;
+	border:1px solid red;
+	background:url(../images/home.jpg);
+}
+.box{
+	background: #f5f6f5;
+	padding:5px 20px;
+}
+.box h4{
+	text-align:center;
+	margin:20px 0;
+}
+.box p{
+	text-align:center;
+	margin:20px 0;
+}
+.recipes{
+	width: 100px;
+	height: 50px;
+	margin:auto;
+	background:#dd3915;
+	text-align:center;
+	line-height:50px;
+}
+.box a{
+	text-decoration: none;
+	color:#dd3915;
+}
+.box a:hover{
+	background: #dd3915;
+	color:white;
+}
+.box p+a{
+	background:#dd3915;
+	text-decoration: none;
+	color:white;
+}
+h4+ol{
+	width: 250px;
+	height: 250px;
+	/*border:1px solid red;*/
+	list-style-position:inside;
+	display:flex;
+	flex-direction: column;
+	flex-wrap:wrap;
+}
+h4+ol li{
+	margin:12px 25px;
+	/*border:1px solid red;*/
+}
+h4+ol li span{
+	padding-left:15px;
+}
+h4+ol a{
+	text-decoration: none;
+	color:black;
+}
+h4+ol a:hover{
+	color:#dd3915;
+}
+.box+h4{
+	color:#c0ae7d;
+	font-weight:bold;
+}
+.totle{
+	color:#c0ae7d;
+	font-weight:bold;
+	font-size:18px;
+}
+.totle span{
+	padding-left:20px;
+	font-size: 14px;
+	font-weight:normal;
+	color:#dd3915;
+}
+.totle a{
+	color:#dd3915;
+}
+.totle a:hover{
+	background:#dd3915;
+	color:white;
 }
