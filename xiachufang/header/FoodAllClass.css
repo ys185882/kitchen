@@ -1,0 +1,14 @@
+.AllSpecial{
+	background-color:#f5f6f5;
+	font-size: 16px;
+}
+.AllSpecial a{
+	color:black;
+}
+.AllSpecial a:hover{
+	color:#dd3915;
+}
+.AllSpecial table tr td{
+	width: 200px;
+	padding:5px;
+}

@@ -69,34 +69,45 @@
 	width:595px;
 	min-width: 500px;
 }
-.mycollectNav>ul>.drafts{
+.mycollectNav>ul li:first-child{
+	background-color:#dd3915;
+}
+.mycollectNav>ul li:first-child a{
 	background-color:#dd3915;
 	color:white;
-	border:none;
 }
 .mycollectNav>ul>li:not(.whiteSpace):hover{
 	background-color:#dd3915;
 }
-.mycollectNav>ul>li>a:hover{
+.mycollectNav>ul>li:not(.whiteSpace):hover a{
 	color:white;
 }
-.FoodClassbox{
-	margin-top: 30px;
+.WorksNav{
+	margin-top:100px;
+	min-width: 1000px;
+}
+.WorksNav {
 	text-align:center;
-	width: 208px;
-	height: 118px;
 }
-.FoodClassbox .FoodClass{
-	font-size: 18.72px;
+.WorksNav div{
+	margin-top:10px;
+}
+.WorksNav h3{
 	font-weight: bold;
-	height: 70px;
-	line-height: 70px;
-	background-color:#f5f6f5;
+	font-size: 18.72px;
 }
-.FoodClassbox>.AllFood{
-	height: 48px;
-	line-height:48px;
-	font-size: 16px;
+.WorksNav [type=text]{
+	width: 193px;
+	height: 39px;
+	outline: none;
+	border:1px solid #f3f3f3;
+}
+.WorksNav [type=button]{
+	border:none;
+	padding:10px;
+	background-color:#dd3915;
 	color:white;
-	background-color:#666666;
+}
+.WorksNav span{
+	font-size: 16px;
 }

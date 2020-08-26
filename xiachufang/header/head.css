@@ -2,6 +2,9 @@
 	padding:0;
 	margin:0;
 }
+a:hover{
+	text-decoration:none;
+}
 body{
 	padding-top: 70px;
 }
@@ -15,7 +18,7 @@ body{
 	height: 70px;
 	position:fixed;
 	top:0;
-	z-index:100;
+	z-index: 100;
 	border-bottom: 2px solid #f3f3f3;
 }
 .navbar-fixed-top{
@@ -157,4 +160,14 @@ body{
 	padding:10px;
 	text-align:center;
 	color:red;
+}
+.Top{
+	position: fixed;
+	bottom: 0px;
+	right: 30px;
+	width: 50px;
+	height: 50px;
+	background-image: url(../js/scroll_top.png);
+	background-position: 0 0;
+	background-repeat: no-repeat;
 }

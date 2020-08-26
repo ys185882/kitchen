@@ -1,0 +1,103 @@
+.container>.Allnav>ul{
+	font-size: 16px;
+	list-style-type: none;
+}
+.container>.Allnav{
+	height: 736px;
+}
+.container>.Allnav>ul>li{
+	width: 155px;
+	height: 28px;
+	line-height: 28px;
+}
+.container>.Allnav>ul>li>a{
+	color:black;
+	list-style-type: none;
+}
+.container>.Allnav>.PopularSearch li a{
+	/*text-decoration: none;*/
+	font-size: 14px;
+}
+.container>.Allnav>.PopularSearch>.popularsearch{
+	color:#909090;
+}
+.container>.Allnav>.PopularSearch{
+	margin-top:60px;
+}
+.container>.Allnav>.PopularSearch li:not(.popularsearch){
+	height: 25px;
+	line-height: 25px;
+}
+.Allnavbox{
+	margin-top:130px;
+}
+.NewPopularMenu,.Allnav,.StudyFood,.CaiPhoto,.PopularMuneBox{
+	float:left;
+}
+.StudyFood{
+	margin-left:20px;
+}
+.NewPopularMenu>.CaiPhotoBox{
+	width: 495px;
+	height: 138px;
+	margin-bottom: 10px;
+	border:1px solid #f3f3f3;
+}
+.NewPopularMenu a{
+	color:black;
+}
+.NewPopularMenu a:hover{
+	color:#dd3915;
+}
+.NewPopularMenu h3{
+	font-size: 20px;
+}
+.NewPopularMenu h1,.NewPopularMenu h3{
+	font-weight: bold;
+}
+.Page{
+	text-align: center;
+	font-size: 15px;
+	margin:60px auto 100px;
+}
+.Page a{
+	font-weight: bold;
+	display: inline-block;
+	padding:10px;
+	color:#dd3915;
+}
+.Page a:hover{
+	background-color: #dd3915;
+	color:white;
+}
+.Page :nth-child(3){
+	background-color: #dd3915;
+	color:white;
+}
+.FoodList{
+	color:#72a46d;
+}
+.PopularMuneBox{
+	margin-left: 30px;
+	width: 300px;
+	height: 140px;
+}
+.PopularFoodMune{
+	text-align:center;
+	border:1px solid #f3f3f3;
+}
+.PopularMuneBox>.PopularMune>b{
+	color:#c0ae7d;
+	font-size: 20px;
+}
+.PopularMuneBox>.PopularMune>a{
+	color:#dd3915;
+	float:right;
+}
+.PopularMuneBox>.PopularMune{
+	margin:50px auto 20px;
+}
+.PopularFoodMune>p{
+	color:black;
+	margin:20px auto;
+}
