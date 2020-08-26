@@ -14,6 +14,9 @@
 	color:black;
 	list-style-type: none;
 }
+.container>.Allnav>ul>li>a:hover{
+	color:red;
+}
 .container>.Allnav>.PopularSearch li a{
 	/*text-decoration: none;*/
 	font-size: 14px;

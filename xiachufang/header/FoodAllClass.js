@@ -1,0 +1,32 @@
+	 $(".foodlisttwo").hide();
+	 $(".foodlistone").show();
+$(".showall").on("click",function(){
+	 $(".foodlistone").hide();
+	 $(".foodlisttwo").show();
+});
+$(".allhide").on("click",function(){
+	 $(".foodlistone").show();
+	 $(".foodlisttwo").hide();
+});
+
+	 $(".foodlisttwo2").hide();
+	 $(".foodlistone2").show();
+$(".showall2").on("click",function(){
+	 $(".foodlistone2").hide();
+	 $(".foodlisttwo2").show();
+});
+$(".allhide2").on("click",function(){
+	 $(".foodlistone2").show();
+	 $(".foodlisttwo2").hide();
+});
+
+	 $(".foodlisttwo3").hide();
+	 $(".foodlistone3").show();
+$(".showall3").on("click",function(){
+	 $(".foodlistone3").hide();
+	 $(".foodlisttwo3").show();
+});
+$(".allhide3").on("click",function(){
+	 $(".foodlistone3").show();
+	 $(".foodlisttwo3").hide();
+});
