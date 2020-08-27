@@ -268,3 +268,46 @@ h4+ol a:hover{
 	background:#dd3915;
 	color:white;
 }
+.personal{
+	width: 340px;
+	height: 100px;
+	border:transparent;
+	border-bottom:1px solid gray;
+	margin-top:20px;
+}
+.personal .head{
+	width: 70px;
+	height: 70px;
+	border-radius:35px;
+	background:url(../images/home2.jpg);
+	margin:15px 2px;
+	float:left;
+}
+.personal .ids{
+	margin:0 5px;
+	float:left;
+	/*border:1px solid red;*/
+}
+.personal .follow{
+	width: 90px;
+	height: 50px;
+	background: #dd3915;
+	float:right;
+	margin:10px 5px;
+	text-align:center;
+	line-height:50px;
+	color:white;
+}
+.ids a{
+	color:black;
+}
+.personal .ids a:hover{
+	color:#dd3915;
+}
+.personal+a{
+	color: #dd3915;
+}
+.personal+a div{
+	margin-top:10px;
+	text-align:center;
+}
