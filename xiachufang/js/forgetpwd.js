@@ -1,0 +1,9 @@
+$(".resetpwdform").validate({
+		debug:true,
+	rules:{
+		sendemail:{
+			required:true,
+			email:true
+		}
+	}
+})

@@ -1,0 +1,32 @@
+.resetpwd{
+	margin-top: 100px;
+}
+.resetpwd [type=submit]{
+	width: 122px;
+	height: 37px;
+	border:none;
+	outline: none;
+	background-color: #dd3915;
+	color:white;
+}
+.resetpwd h1{
+	font-size: 34px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.resetpwd table{
+	margin:auto;
+}
+.resetpwd table td{
+	height: 80px;
+}
+.emailfontsize{
+	font-size: 16px;
+}
+.emailfontsize + td>[type=text]{
+	width: 305px;
+	height: 39px;
+	border:1px solid #f3f3f3;
+	outline: none;
+}
