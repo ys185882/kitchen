@@ -85,28 +85,28 @@ for(var i=0;i<arr.length;i++){
 		foods.append("<hr>")
 	}
 }
-
+console.log(1)
 $(".follow").on("click",function(){
-if($(".follow").text()=="关注"){
-	$(".follow").css({
+if($(this).text()=="关注"){
+	$(this).css({
 		"background":"#ccc7c2 ",
 	})
-	$(".follow").text("已关注")
-	if($(".follow").text("已关注")){
-		$(".follow").on("mouseover",function(){
+	$(this).text("已关注")
+	if($(this).text("已关注")){
+		$(this).on("mouseover",function(){
 
-		$(".follow").text("取消关注")
+		$(this).text("取消关注")
 	})
-	$(".follow").on("mouseout",function(){
-		$(".follow").text("已关注")
+	$(this).on("mouseout",function(){
+		$(this).text("已关注")
 	})
 	}
 }else{
-	$(".follow").css({
+	$(this).css({
 		"background":" #dd3915",
 	})
-	$(".follow").text("关注")
-		$(".follow").off("mouseover")
-		$(".follow").off("mouseout")
+	$(this).text("关注")
+		$(this).off("mouseover")
+		$(this).off("mouseout")
 }
 })

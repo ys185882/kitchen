@@ -5,16 +5,20 @@
 .container>.Allnav{
 	height: 736px;
 }
-.container>.Allnav>ul>li{
+.container>.Allnav ul li{
 	width: 155px;
 	height: 28px;
 	line-height: 28px;
 }
-.container>.Allnav>ul>li>a{
+.AllNavClass li{
+	padding-left:10px;
+	margin-top:10px;
+}
+.container>.Allnav>ul>li a{
 	color:black;
 	list-style-type: none;
 }
-.container>.Allnav>ul>li>a:hover{
+.container>.Allnav>ul>li a:hover{
 	color:red;
 }
 .container>.Allnav>.PopularSearch li a{
@@ -103,4 +107,23 @@
 .PopularFoodMune>p{
 	color:black;
 	margin:20px auto;
+}
+.dropdown div{
+	border:transparent;
+}
+.item{
+  border:1px solid red;
+}
+h4{
+  background-color: orange;
+}
+.content{
+  display:none;
+}
+.lists{
+	color:#909090;
+}
+.lists:hover,.lists~li:hover{
+	background:#ebe9e7;
+	color:black;
 }
