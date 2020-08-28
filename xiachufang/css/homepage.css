@@ -311,3 +311,60 @@ h4+ol a:hover{
 	margin-top:10px;
 	text-align:center;
 }
+.end{
+	padding-left:20px;
+	padding-top:15px;
+	color:#c0ae7d;
+	font-weight:bold;
+	width: 630px;
+	height: 120px;
+	/*border:1px solid red;*/
+	background: #f0f1f0;
+
+}
+.end span{
+	color:#ec6c3f;
+}
+.end ol li{
+	margin:5px 20px;
+	float:left;
+	list-style-type: none;
+}
+.end a{
+	color: #dd3915;
+}
+.end a:hover{
+	color:white;
+	background:#dd3915;;
+}
+.category{
+	width: 630px;
+	height: 120px;
+	margin-top:5px;
+	background: #f0f1f0;
+	/*border:1px solid red;*/
+	font-size: 18px;
+	position:relative;
+	color:black;
+}
+.category .labels{
+	position:absolute;
+	top:20px;
+	left:20px;
+}
+.category .labels p{
+	margin-top:5px;
+	font-size:12px;
+	color:#909090;
+}
+.category .contents{
+	width: 240px;
+	height: 120px;
+	float:right;
+	/*border:1px solid red;*/
+}
+.contents img{
+	margin:10px 2px;
+	width: 70px;
+	height: 90px;
+}
