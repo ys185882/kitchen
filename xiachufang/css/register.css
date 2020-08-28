@@ -31,10 +31,109 @@ body{
 	margin:60px 0;
 }
 .qqregister{
+	color:white;
 	width: 194px;
 	height: 40px;
-	padding: 
+	line-height: 40px;
+	padding-left:77px;
 	background-color:#87d1d8;
 	background-image: url(../images/qq.png);
 	background-repeat: no-repeat;
+	background-position: 10px 0;
+	margin:10px 0;
+}
+.wbregister{
+	color:white;
+	width: 194px;
+	height: 40px;
+	line-height: 40px;
+	padding-left:77px;
+	background-color:#d72829;
+	background-image: url(../images/wb.png);
+	background-repeat: no-repeat;
+	background-position: 10px 0;
+}
+.dbregister{
+	color:white;
+	width: 194px;
+	height: 40px;
+	line-height: 40px;
+	padding-left:10px;
+	background-color:#009c56;
+	margin:10px 0;
+}
+.dbregister span{
+	font-size: 23px;
+	font-weight: bold;
+	padding-right:20px;
+}
+.registerwaybox,.registerpagebox form{
+	float: left;
+}
+.registerpagebox{
+	font-size: 16px;
+}
+.registerpagebox form{
+	margin-left: 100px;
+}
+.registerpagebox form table tr td{
+	height: 70px;
+}
+.registerpagebox select{
+	padding:10px;
+	font-size: 12px;
+	width: 128px;
+	height: 50px;
+}
+.registerpagebox [type=text],select,.registerpagebox [type=tel]{
+	width: 200px;
+	height: 50px;
+	border:1px solid #f3f3f3;
+	outline: none;
+}
+select option:hover{
+	background-color: #dd3915;
+}
+.registerpagebox [type=button],.registerpagebox [type=submit]{
+	width: 92px;
+	height: 37px;
+	border:none;
+	background-color:#dd3915;
+	color:white;
+}
+.registerpagebox .VerificationCode [type=button]{
+	width: 130px;
+	height: 48px;
+	border:none;
+	outline: none;
+	background-color:#c6c1b8;
+	font-size: 12px;
+}
+.registerpagebox form table .formfooterfont{
+	font-size: 12px;
+	height: 40px;
+}
+.registerpagebox .VerificationCode [type=text]{
+	height: 48px;
+}
+.emailregister{
+	text-align:right;
+}
+.emailregister a,.formfooterfont a{
+	color:#dd3915;
+}
+.forgetpwd a{
+	color:#dd3915;
+	float:right;
+}
+.emailregister a:hover,.forgetpwd a:hover,.formfooterfont a:hover{
+	text-decoration: none;
+	color:white;
+	background-color: #dd3915;
+}
+.registerbutton [type=button]{
+	outline: none;
+}
+.rightalignment{
+	text-align:center;
 }

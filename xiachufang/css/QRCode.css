@@ -1,0 +1,27 @@
+.container{
+	width: 1000px;
+}
+.navBox header{
+	margin:20px 0;
+	text-align: center;
+}
+.navBox header img:first-child{
+	width: 98.45px;
+	height: 32px;
+}
+.navBox header img:last-child{
+	width: 98.95px;
+	height: 32px;
+}
+.sectionbox{
+	padding-top: 75px;
+	background-color: #ccc2a5;
+	height: 733px;
+}
+.sectionbox .Mobilephonesection{
+	height: 658px;
+}
+.Mobilephone{
+	width: 360px;
+	height: 738px;
+}
