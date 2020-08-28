@@ -1,6 +1,9 @@
 .container{
 	width: 1000px;
 }
+html{
+	background-color:#f4f1ea;
+}
 .navBox header{
 	margin:20px 0;
 	text-align: center;
@@ -24,4 +27,120 @@
 .Mobilephone{
 	width: 360px;
 	height: 738px;
+}
+.downloadbox{
+	width: 255px;
+	height: 572.6px;
+	float:right;
+	text-align:center;
+}
+.downloadbox+img{
+	float:left;
+}
+.downloadbox :first-child{
+	width: 120px;
+	height: 120px;
+	margin:20px;
+}
+.downloadbox :nth-child(3),.downloadbox :nth-child(4){
+	width: 240px;
+	height: 72.52px;
+	margin:10px;
+}
+.downloadbox :nth-child(5){
+	width: 240px;
+	height: 73.03px;
+	margin:10px;
+}
+.downloadbox :nth-child(2){
+	width: 260px;
+	height: 100px;
+	font-weight: bold;
+	color:white;
+	font-size: 36px;
+	margin:10px;
+}
+.RecommendBox{
+	padding-top:150px;
+	height: 440px;
+	background-color:#f4f1ea;
+	text-align:center;
+}
+.recommendbox :first-child{
+	width: 80px;
+	height: 80px;
+	background-color:#f26451;
+	border-radius:40px;
+	margin:auto;
+}
+.recommendbox :first-child img{
+	margin-top: 15px;
+	width: 50px;
+	height: 50px;
+}
+.recommendbox :nth-child(2){
+	margin:20px 0;
+	font-size: 27px;
+}
+.recommendbox :last-child{
+	font-size: 19px;
+	color:#888888;
+}
+.recommendbox{
+	float:left;
+	width: 320px;
+}
+.chatbox{
+	text-align:center;
+	margin-top: 520px;
+	padding-top:100px; 
+	background-color:white;
+}
+.chatbox h3{
+	font-size: 32px;
+	text-align: left;
+}
+.chatbox :nth-child(2){
+	width: 350px;
+	height: 417.92px;
+	padding:30px 0;
+}
+.chatbox p{
+	text-align: left;
+	font-size: 19px;
+	margin:40px 0;
+}
+.userevaluatebox{
+	margin-top: 100px;
+	text-align: center;
+}
+.userevaluatebox h3{
+	font-size:32;
+}
+.carousel-inner{
+	height: 500px;
+}
+.item{
+	padding:70px;
+	margin-top: 100px;
+	width: 960px;
+	height: 300px;
+	font-size:19px;
+	text-align:left;
+	border-radius: 10px;
+	background-color:white;
+}
+.carousel-caption{
+	font-size:19px;
+	color:#9e9e9e;
+	margin-bottom: -25px;
+	text-shadow: none;
+}
+.carousel-caption img{
+	width: 40px;
+	height: 40px;
+}
+.carousel-indicators li {
+	border:1px solid #c39f4e;
+	background-color: #f4f1ea;
 }

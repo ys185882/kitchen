@@ -1,0 +1,157 @@
+.container>.Allnav>ul{
+	font-size: 16px;
+	list-style-type: none;
+}
+.container>.Allnav{
+	height: 736px;
+}
+.container>.Allnav>ul>li{
+	width: 155px;
+	height: 28px;
+	line-height: 28px;
+}
+.container>.Allnav>ul>li>a{
+	color:black;
+	list-style-type: none;
+}
+.container>.Allnav>ul>li>a:hover{
+	color:red;
+}
+.container>.Allnav>.PopularSearch li a{
+	/*text-decoration: none;*/
+	font-size: 14px;
+}
+.container>.Allnav>.PopularSearch>.popularsearch{
+	color:#909090;
+}
+.container>.Allnav>.PopularSearch{
+	margin-top:60px;
+}
+.container>.Allnav>.PopularSearch li:not(.popularsearch){
+	height: 25px;
+	line-height: 25px;
+}
+.Allnavbox{
+	margin-top:130px;
+}
+.NewPopularMenu,.Allnav,.StudyFood,.CaiPhoto,.PopularMuneBox{
+	float:left;
+}
+.StudyFood{
+	margin-left:20px;
+	float:right;
+}
+.NewPopularMenu>.CaiPhotoBox{
+	width: 655px;
+	height: 138px;
+	margin:20px 0;
+}
+.CaiPhoto{
+	float:left;
+}
+.NewPopularMenu a{
+	color:black;
+}
+.NewPopularMenu a:hover{
+	color:#dd3915;
+}
+.NewPopularMenu h3{
+	font-size: 20px;
+}
+.NewPopularMenu h1,.NewPopularMenu h3{
+	font-weight: bold;
+}
+.Page{
+	text-align: center;
+	font-size: 15px;
+	margin:60px auto 100px;
+}
+.Page a{
+	font-weight: bold;
+	display: inline-block;
+	padding:10px;
+	color:#dd3915;
+}
+.Page a:hover{
+	background-color: #dd3915;
+	color:white;
+}
+.Page :nth-child(2){
+	background-color: #dd3915;
+	color:white;
+}
+.FoodList{
+	color:#9c6730;
+}
+.StudyFood :nth-child(3),.StudyFood :nth-child(4){
+	color:#909090;
+}
+.StudyFood :nth-child(3) span{
+	color:#72a49a;
+}
+.PopularMuneBox{
+	margin-left: 30px;
+	width: 300px;
+	height: 140px;
+}
+.PopularFoodMune{
+	text-align:center;
+	border:1px solid #f3f3f3;
+}
+.PopularMuneBox>.PopularMune>b{
+	color:#c0ae7d;
+	font-size: 20px;
+}
+.PopularMuneBox>.PopularMune>a{
+	color:#dd3915;
+	float:right;
+}
+.PopularMuneBox>.PopularMune{
+	margin:50px auto 20px;
+}
+.PopularFoodMune>p{
+	color:black;
+	margin:20px auto;
+}
+
+
+
+.studyFoodlist{
+	text-align: center;
+	padding:16px 32px;
+	background-color:#f5f6f5;
+}
+.studyFoodlist div:not(:nth-child(2)){
+	margin:30px 0;
+}
+.studyFoodlist :nth-child(2){
+	color:#909090;
+	font-size: 14px;
+}
+.studyFoodlist :nth-child(3){
+	font-size: 16px;
+	text-align: left;
+}
+.studyFoodlist :nth-child(4) input{
+	width: 112px;
+	height: 40px;
+	font-size:15px;
+	background-color:#dd3915;
+	color:white;
+	border:none;
+	float: right;
+}
+.studyFoodlist :nth-child(4){
+	height: 30px;
+	line-height:30px;
+}
+.studyFoodlist :nth-child(4) img,.studyFoodlist :nth-child(4) span{
+	float:left;
+}
+.studyFoodlist :nth-child(4) span{
+	color:#dd3915;
+}
+.studyFoodlist :nth-child(5){
+	font-size:14px;
+	color:#909090;
+}
