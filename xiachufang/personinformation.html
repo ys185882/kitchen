@@ -105,9 +105,9 @@
 				<h1>设置个人信息</h1>
 				<div>
 					<span class="basic">基本信息</span>
-					<span><a href="">设置头像</a></span>
-					<span><a href="">绑定邮箱</a></span>
-					<span><a href="">绑定账号</a></span>
+					<span><a href="headphoto.html">设置头像</a></span>
+					<span><a href="email.html">绑定邮箱</a></span>
+					<span><a href="https://www.douban.com/service/auth2/auth?client_id=0fc01e964f12b3852f405bc2ed381a8f&response_type=code&redirect_uri=http%3A%2F%2Fwww.xiachufang.com%2Fsocial%2Fbind%2Fdouban%2F">绑定账号</a></span>
 				</div>
 				<form action="">
 					<table>
@@ -139,7 +139,21 @@
 						</tr>
 						<tr>
 							<td>家乡</td>
-							<td></td>
+							<td>
+								<select name="" id="province" onchange="changeCity(this)">
+							    <option value="">北京市</option>
+							    <option value="">河北省</option>
+							    <option value="">山东省</option>
+							    <option value="">江苏省</option>
+							  </select>
+							  <select name="" id="city">
+							    <option value="">东城区</option>
+							    <option value="">西城区</option>
+							    <option value="">朝阳区</option>
+							    <option value="">海淀区</option>
+							    <option value="">石景山区</option>
+							  </select>
+							</td>
 						</tr>
 						<tr>
 							<td>职业</td>
@@ -197,4 +211,5 @@
 			console.log(1);
 		})
 	</script>
+	<script src="js/personinformation.js"></script>
 </html>
