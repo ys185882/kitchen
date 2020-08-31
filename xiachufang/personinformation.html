@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>下厨房</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/personinformation.css">
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<link rel="stylesheet" href="header/head.css">
+  <link rel="stylesheet" href="footer/foot.css">
+</head>
+<body>
+	<header class="navbox">
+		<nav class="container navbar-fixed-top">
+			<div class="headbox">
+				<div class="photo"><a href=""><img src="header/index.png" alt=""></a></div>
+				<div class="food">
+					<input type="text" placeholder="搜索菜谱、食谱"><input type="button" value="搜菜谱">
+				</div>
+				<div class="headnav">
+					<ul>
+						<li><a href="homepage.html">首页</a></li>
+						<li class="navmenu">
+							<a href="FoodAllClass.html">菜谱分类</a>
+							<div class="foodclassbox">
+								<table class="navfoodmenu">
+									<tr class="foodnav">
+										<td>常见主题</td>
+										<td>常见食材</td>
+										<td>时令食材</td>
+									</tr>
+									<tr>
+										<td><a href="food.html">家常菜</a></td>
+										<td><a href="food.html">猪肉</a></td>
+										<td><a href="food.html">葡萄</a><span>10.0</span></td>
+									</tr>
+									<tr>
+										<td><a href="food.html">快手菜</a></td>
+										<td><a href="food.html">鸡肉</a></td>
+										<td><a href="food.html">西柚</a><span>10.0</span></td>
+									</tr>
+									<tr>
+										<td><a href="food.html">下饭菜</a></td>
+										<td><a href="food.html">牛肉</a></td>
+										<td><a href="food.html">椰奶</a><span>10.0</span></td>
+									</tr>
+									<tr>
+										<td><a href="food.html">早餐</a></td>
+										<td><a href="food.html">鱼</a></td>
+										<td><a href="food.html">丝瓜</a><span>10.0</span></td>
+									</tr>
+									<tr>
+										<td><a href="food.html">减肥</a></td>
+										<td><a href="food.html">鸡蛋</a></td>
+										<td><a href="food.html">秋葵</a><span>10.0</span></td>
+									</tr>
+									<tr>
+										<td><a href="food.html">汤羹</a></td>
+										<td><a href="food.html">土豆</a></td>
+										<td><a href="food.html">桃</a><span>10.0</span></td>
+									</tr>
+									<tr>
+										<td><a href="food.html">烘焙</a></td>
+										<td><a href="food.html">茄子</a></td>
+										<td><a href="food.html">苦瓜</a><span>10.0</span></td>
+									</tr>
+									<tr>
+										<td><a href="food.html">小吃</a></td>
+										<td><a href="food.html">豆腐</a></td>
+										<td><a href="food.html">无花果</a><span>10.0</span></td>
+									</tr>
+									<tr>
+										<td colspan="3" class="allclass"><a href="FoodAllClass.html">查看全部分类</a></td>
+									</tr>
+								</table>
+							</div>
+						</li>
+						<li><a href="menu.html">菜单</a></li>
+						<li><a href="Kitchen friend.html">作品动态</a></li>
+					</ul>
+				</div>
+				<div class="headphoto">
+					<a href="header/mykitchen.html"><img src="header/1.png" alt=""></a>
+					<div class="headphotobox">
+						<ul>
+		          <li><a href="header/mykitchen.html">我的厨房</a></li>
+		          <li><a href="header/MyCollect.html">我的菜单</a></li>
+		          <li><a href="">账号设置</a></li>
+		          <li><a href="">发现好友</a></li>
+		          <li><a href="header/register.html">退出</a></li>
+		        </ul>
+					</div>
+				</div>
+				<div class="collect">
+					<a href="header/MyCollect.html"></a>
+				</div>
+			</div>
+		</nav>
+		<div class="Top"></div>
+	</header>
+	<section>
+			<div class="personinformationbox container">
+				<h1>设置个人信息</h1>
+				<div>
+					<span class="basic">基本信息</span>
+					<span><a href="">设置头像</a></span>
+					<span><a href="">绑定邮箱</a></span>
+					<span><a href="">绑定账号</a></span>
+				</div>
+				<form action="">
+					<table>
+						<tr>
+							<td>昵称</td>
+							<td>
+								<input class="username">
+								<span>提示：七天内只能修改一次昵称</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="myself">自我介绍</td>
+							<td>
+								<textarea name="" id="" cols="30" rows="10"></textarea>
+							</td>
+						</tr>
+						<tr>
+							<td>性别</td>
+							<td>
+								<input type="radio" name="sex">男
+								<input type="radio" name="sex">女
+								<input type="radio" name="sex">其他
+							</td>
+						</tr>
+						<tr>
+							<td>生日</td>
+							<td>
+								<input type="date"></td>
+						</tr>
+						<tr>
+							<td>家乡</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>职业</td>
+							<td>
+								<select name="" id="">
+									<option value="">请选择</option>
+									<option value="">学生</option>
+									<option value="">政府职员</option>
+									<option value="">教师</option>
+									<option value="">医生</option>
+									<option value="">营养师</option>
+									<option value="">摄影师</option>
+									<option value="">职业厨师</option>
+									<option value="">律师</option>
+									<option value="">会计</option>
+									<option value="">编辑</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td>
+								<input type="submit" value="更新">
+							</td>
+						</tr>
+					</table>
+				</form>
+			</div>
+		</section>
+</body>
+<div class="container">
+		<div class="nav">
+			<div class="btn-group" role="group" aria-label="...">
+  		<button type="button" class="btn btn-default"><a href="Settlement.html">入驻下厨房市集</a></button>
+  		<button type="button" class="btn btn-default"><a href="advertisement.html">广告合作</a></button>
+  	</div>
+		</div>
+	<footer>
+		<div class="pagefoooter"><a href="https://mashable.com/category/twitter/"><div class="twitter">&nbsp;&nbsp;&nbsp;&nbsp;</div></a><a href="https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2F&domain=.weibo.com&sudaref=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3DMK8k-ab-gZW6QFV1M4IVbaDF_D3RdcEH9FdWlMYaoqG%26wd%3D%26eqid%3Db0003ddf0000028d000000045f3d100f&ua=php-sso_sdk_client-0.6.36&_rand=1597837355.1948"><div class="weibo">&nbsp;&nbsp;&nbsp;&nbsp;</div></a><br><br>唯有美食与爱不可辜负</div>
+		<a href="magazine.html">美食杂志生活</a>
+		<a href="recruit.html">厨房工作</a>
+		<a href="Community guidelines.html">社区指导原则</a>
+		<a href="https://site.douban.com/106718/room/1939571/">下厨房出版的书</a>
+		<a href="Community guidelines.html">帮助中心</a>
+		<a href="advertisement.html">联系我们</a>
+		<a href="advertisement.html">隐私政策</a>
+		<a href="About us.html">关于我们</a>
+	</footer>
+	<p>Copyright © xiachufang.com   京B2-20180499   京ICP备13009078号-1   京公网安备11010802022310号</p>
+	<p>违法和不良信息举报电话：010-52800126   举报邮箱：talk@xiachufang.com</p>
+	</div>
+	<script src="js/scrolltop.js"></script>
+	<script>
+		$(".Province option").on("click",function(e){
+			console.log(1);
+		})
+	</script>
+</html>

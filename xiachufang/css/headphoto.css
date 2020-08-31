@@ -1,0 +1,39 @@
+*{
+	font-size: 16px;
+}
+.personinformationbox a{
+	padding:4.8px 16px;
+	font-size: 16px;
+	color:#dd3915;
+}
+.personinformationbox h1{
+	font-size: 34px;
+	font-weight: bold;
+	margin:30px 0;
+}
+.personinformationbox .headPhoto{
+	color:black;
+}
+.personinformationbox a:not(.headPhoto):hover{
+	background-color: #dd3915;
+	color:white;
+}
+[type=submit]{
+	width: 92px;
+	height: 37px;
+	color:white;
+	background-color:#dd3915;
+}
+.personinformationbox .photo{
+	font-size: 22px;
+}
+.personinformationbox span{
+	color:#dd3915;
+	margin-bottom:;
+}
+.personinformationbox form{
+	margin-bottom: 100px;
+}
+.personinformationbox img{
+	margin-top: 50px;
+}
