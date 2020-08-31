@@ -52,7 +52,7 @@ $(".lists").on("click",function(){
 // 	}
 // })
 $(".Collection").on("click",function(){
-if($(this).text()=="收藏"){
+if($(this).text()=="收藏"&&$(".btn").on("click")){
 	$(this).css({
 		"background":"#ccc7c2 ",
 	})
@@ -83,3 +83,6 @@ $(".btn").on("click",function(){
 </div>
         `)
 })
+// $(".report p").on("click",function(){
+
+// })

@@ -36,7 +36,7 @@
 	line-height: 25px;
 }
 .Allnavbox{
-	border:1px solid red;
+	/*border:1px solid red;*/
 	margin-top:130px;
 }
 .NewPopularMenu,.Allnav,.StudyFood,.CaiPhoto,.PopularMuneBox{
@@ -130,8 +130,8 @@ h4{
 }
 .boxs{
 	width: 650px;
-	height: 1800px;
-	border:1px solid red;
+	height: 3560px;
+	/*border:1px solid red;*/
 	float:left;
 	position:relative;
 }
@@ -224,7 +224,7 @@ h4+p{
 	height: 100px;
 	text-align:right;
 	line-height:100px;
-	border:1px solid red;
+	/*border:1px solid red;*/
 	font-weight:bold;
 	font-size:19px;
 }
@@ -250,9 +250,154 @@ h4+p{
 }
 table td{
 	width: 400px;
+	padding:10px 0;
 	border-bottom:1px solid #f3f4f5;
 }
 .step{
 	height: 200px;
-	border:1px solid red;
+}
+.step p{
+	width: 300px;
+	/*border:1px solid red;*/
+	float:left;
+}
+.step .image{
+	width: 300px;
+	height: 200px;
+	background:url(../images/home2.jpg) no-repeat;
+	background-size:300px 180px;
+	padding:10px;
+	float:right;
+}
+.step span{
+	display: block;
+	color:#c0ae7d;
+	float:left;
+	padding:10px;
+	font-size:30px;
+}
+.steps{
+	background:#f5f6f5;
+}
+.steps p{
+	margin:20px;
+	font-size: 16px;
+	line-height: 30px;
+}
+.steps h5{
+	font-weight:bold;
+	padding:20px 0 0 20px;
+}
+.da{
+	width: 32px;
+	height: 32px;
+	background:url(../images/dayin.png);
+	float:right;
+}
+.da:hover{
+	/*border-bottom:1px solid red;
+	border-right:1px solid red;*/
+	box-shadow: 1px -1px 1px 1px red;
+}
+.works h3{
+	float:left;
+}
+.allworks{
+	margin-top:10px;
+	float:right;
+}
+.allworks a{
+	color:#dd3915;
+	font-size:14px;
+	font-weight:bold;
+	padding:5px 0;
+}
+.allworks a:hover{
+	color:white;
+	background:#dd3915;
+}
+.col-xs-3 img{
+	width: 150px;
+}
+.imgs p{
+	font-size: 12px;
+	line-height:30px;
+}
+.imgs{
+	width: 150px;
+	border:1px solid #f3f3f3;
+}
+.himg{
+	width: 30px;
+	height: 30px;
+	border-radius:15px;
+	background:url(../images/food1.jpg);
+	float:left;
+	margin-right:10px;
+}
+.imgs a{
+	font-size:14px;
+	color:#dd3915;
+}
+.heading{
+	height: 50px;
+	text-align:center;
+	line-height:50px;
+	background:#dd3915;
+	color:white;
+	font-size:15px;
+	margin-top:50px;
+}
+.report{
+	width: 900px;
+}
+.report p{
+	float:right;
+	font-size: 13px;
+	color:gray;
+}
+section+section{
+	background:#f5f6f5;
+}
+.container h2{
+	font-weight:bold;
+}
+.user{
+	height: 150px
+}
+.imghead{
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+	background:url(../images/home.jpg);
+	float:left;
+	margin:0 20px;
+}
+.zan{
+	width: 60px;
+	height: 32px;
+	background:url(../images/zan.png) no-repeat;
+	float:right;
+	line-height: 32px;
+}
+.user a{
+	padding:0 10px 0 0;
+	color:gray;
+}
+.author{
+	padding-left:90px;
+}
+.foots{
+	text-align:center;
+	color:gray;
+	font-size: 12px;
+	padding:20px;
+}
+.foots a{
+	color:#dd3915;
+	font-size: 14px;
+}
+.foots a:hover{
+	color:white;
+	background:#dd3915;
 }
