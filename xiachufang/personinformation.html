@@ -139,7 +139,21 @@
 						</tr>
 						<tr>
 							<td>家乡</td>
-							<td></td>
+							<td>
+								<select name="" id="province" onchange="changeCity(this)">
+							    <option value="">北京市</option>
+							    <option value="">河北省</option>
+							    <option value="">山东省</option>
+							    <option value="">江苏省</option>
+							  </select>
+							  <select name="" id="city">
+							    <option value="">东城区</option>
+							    <option value="">西城区</option>
+							    <option value="">朝阳区</option>
+							    <option value="">海淀区</option>
+							    <option value="">石景山区</option>
+							  </select>
+							</td>
 						</tr>
 						<tr>
 							<td>职业</td>
@@ -197,4 +211,5 @@
 			console.log(1);
 		})
 	</script>
+	<script src="js/personinformation.js"></script>
 </html>
