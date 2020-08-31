@@ -4,6 +4,8 @@
 .col-xs-2{
 	height: 200px;
 }
+.col-xs-4{
+	height: 300px;
 }
 .foods li{
 	height: 32px;
@@ -97,6 +99,7 @@
 }
 .swiper-button-prev{
 	color:gray;
+	font-size: 14px;
 	position:relative;
 	bottom:55px;
 	left:420px;
@@ -177,7 +180,7 @@
 	color:#dd3915;
 }
 .box a:hover{
-	background-color: blue;
+	background-color: #dd3915;
 	color:white;
 }
 .box p+a{
@@ -277,7 +280,6 @@ h4+ol a:hover{
 	font-weight:bold;
 	width: 630px;
 	height: 120px;
-	/*border:1px solid red;*/
 	background: #f0f1f0;
 
 }
@@ -301,7 +303,6 @@ h4+ol a:hover{
 	height: 120px;
 	margin-top:5px;
 	background: #f0f1f0;
-	/*border:1px solid red;*/
 	font-size: 18px;
 	position:relative;
 	color:black;
@@ -320,7 +321,6 @@ h4+ol a:hover{
 	width: 240px;
 	height: 120px;
 	float:right;
-	/*border:1px solid red;*/
 }
 .contents img{
 	margin:10px 2px;
