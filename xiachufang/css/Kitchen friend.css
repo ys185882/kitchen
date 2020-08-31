@@ -5,11 +5,7 @@ h1{
 .personal{
 	width: 220px;
 	height: 100px;
-	/*border:transparent;*/
-	/*border-bottom:1px solid gray;*/
-	/*margin-top:20px;*/
-	position:relative;/*
-	border:1px solid red;*/
+	position:relative;
 }
 .personal .head{
 	width: 60px;
@@ -29,7 +25,6 @@ h1{
 	width: 80px;
 	height: 40px;
 	background: #dd3915;
-	/*float:right;*/
 	position:absolute;
 	left:140px;
 	margin:10px 5px;
