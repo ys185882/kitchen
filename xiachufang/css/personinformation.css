@@ -1,0 +1,53 @@
+*{
+	font-size: 16px;
+}
+.personinformationbox a{
+	padding:4.8px 16px;
+	font-size: 16px;
+	color:#dd3915;
+}
+.personinformationbox h1{
+	font-size: 34px;
+	font-weight: bold;
+	margin:30px 0;
+}
+.personinformationbox h1+div{
+	margin:30px 0;
+}
+.personinformationbox .basic{
+	color:black;
+}
+.personinformationbox a:not(.basic):hover{
+	background-color: #dd3915;
+	color:white;
+}
+.username{
+	width: 193px;
+	height: 39px;
+	padding: 8px;
+	border:1px solid #f3f3f3;
+	outline:none;
+}
+.personinformationbox textarea{
+	resize: vertical;
+	outline: none;
+	border:1px solid #f3f3f3;
+	padding:8px;
+	width: 435px;
+	height: 102px;
+}
+.myself{
+	text-align: right;
+}
+[type=submit]{
+	width: 92px;
+	height: 37px;
+	color:white;
+	background-color:#dd3915;
+}
+.personinformationbox select{
+	
+}
+.personinformationbox tr{
+	height: 50px;
+}
