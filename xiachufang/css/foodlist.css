@@ -1,3 +1,6 @@
+[type=button]{
+	outline: none;
+}
 .container>.Allnav>ul{
 	font-size: 16px;
 	list-style-type: none;
