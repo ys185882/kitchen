@@ -86,3 +86,6 @@ $(".btn").on("click",function(){
 // $(".report p").on("click",function(){
 
 // })
+$(".jubao").on("click",function(){
+	alert("你的举报已递交，我们会尽快核实处理！")
+})
